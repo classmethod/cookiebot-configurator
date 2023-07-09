@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Cookiebot 設定ツール w/ Cloudflare Workers",
+        "en": "英語",
+        "ja": "日本語"
+    },
+    "tab": {
+        "generate": "コード生成",
+        "howto": "使用方法"
+    },
+    "content": {
+        "wheretofind": "Cookiebot ドメイン Group ID の確認方法",
+        "cbid": "Cookiebot Domain Group ID (例: f9c1315b-061f-49b1-b394-2ed1df427745)",
+        "gtmID": "GTM ID (例: GTM-XXXXXXX)",
+        "blockMode": {
+            "title": "Cookie ブロックモード",
+            "auto": "自動 (Auto)",
+            "manual": "手動 (Manual)"
+        }
+    },
+    "instruction": {
+        "about": "Cookiebot とは?",
+        "description": "Cookiebot Consent Management Platform (CMP) は、ウェブサイト上のすべての Cookie と同様のトラッカーを自動的に検出し、ユーザーが同意するまでブロックします。Cookiebot の全機能については下記をご覧ください。",
+        "steps": "ステップ",
+        "step1Label": "ステップ 1. Cookiebot アカウントの作成",
+        "step2Label": "ステップ 2. ダッシュボードから Cookiebot Domain Group ID を取得",
+        "step2Description": "Copy Cookiebot Domain Group ID",
+        "step3Label": "ステップ 3. コードの生成",
+        "step3Description": "Cookiebot Domain Group ID をペーストし、コードをコピー",
+        "step4Label": "ステップ 4. Cloduflare Workers をデプロイ",
+        "step4Description": "Cloudflare Worker にコードをペースト",
+        "note": {
+            "title": "備考",
+            "l1": "GTM タグと Cookiebot タグの両方をコードから削除してください。(Cloudflare Workers がウェブサイトへ挿入します)",
+            "l2": "GTM で Cookiebot の CMP テンプレートタグを使用する必要はありません。",
+            "l3": "GTM タグに追加の同意チェックを設定します。",
+            "l3Link": "こちらのドキュメントをご参照ください。"
+        }
+    }
+}
