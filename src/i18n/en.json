@@ -1,40 +1,40 @@
 {
-    "header": {
-        "title": "Installer w/ Cloudflare Workers - EN",
-        "en": "EN",
-        "ja": "JA"
-    },
-    "tab": {
-        "generate": "Generate your code!",
-        "howto": "How to use"
-    },
-    "content": {
-        "wheretofind": "Where can I find Cookiebot Domain Group ID?",
-        "cbid": "Cookiebot Domain Group ID (e.g. f9c1315b-061f-49b1-b394-2ed1df427745)",
-        "gtmID": "Your GTM ID (e.g. GTM-XXXXXXX)",
-        "blockMode": {
-            "title": "Cookie blocking mode",
-            "auto": "Auto",
-            "manual": "Manual"
-        }
-    },
-    "instruction": {
-        "about": "What is Cookiebot?",
-        "description": "Cookiebot Consent Management Platform (CMP) automatically detects all cookies and similar trackers on your website and blocks them until your users have given their consent. This is a unique technology. Learn about all the functions of Cookiebot below.",
-        "steps": "Steps",
-        "step1Label": "Step 1. Create your Cookiebot account",
-        "step2Label": "Step 2. Get Cookiebot Domain Group ID from the dashboard",
-        "step2Description": "Copy Cookiebot Domain Group ID",
-        "step3Label": "Step 3. Generate your code",
-        "step3Description": "Paste your Cookiebot Domain Group ID, and copy the code",
-        "step4Label": "Step 4. Deploy Cloduflare Workers",
-        "step4Description": "Paste the code into your Cloudflare Worker",
-        "note": {
-            "title": "Note",
-            "l1": "Remove both GTM and Cookiebot tags from your code(Cloudflare Workers insert them into your website)",
-            "l2": "Do not need to use Cookiebot CMP template tag in GTM",
-            "l3": "Configure your GTM tags with additional consent checkes.",
-            "l3Link": "Please refer to the document here."
-        }
-    }
+	"header": {
+		"title": "Installer w/ Cloudflare Workers - EN",
+		"en": "EN",
+		"ja": "JA"
+	},
+	"tab": {
+		"generate": "Generate your code!",
+		"howto": "How to use"
+	},
+	"content": {
+		"wheretofind": "Where can I find Cookiebot Domain Group ID?",
+		"cbid": "Cookiebot Domain Group ID (e.g. f9c1315b-061f-49b1-b394-2ed1df427745)",
+		"gtmID": "Your GTM ID (e.g. GTM-XXXXXXX)",
+		"blockMode": {
+			"title": "Cookie blocking mode",
+			"auto": "Auto",
+			"manual": "Manual"
+		}
+	},
+	"instruction": {
+		"about": "What is Cookiebot?",
+		"description": "Cookiebot Consent Management Platform (CMP) automatically detects all cookies and similar trackers on your website and blocks them until your users have given their consent. This is a unique technology. Learn about all the functions of Cookiebot below.",
+		"steps": "Steps",
+		"step1Label": "Step 1. Create your Cookiebot account",
+		"step2Label": "Step 2. Get Cookiebot Domain Group ID from the dashboard",
+		"step2Description": "Copy Cookiebot Domain Group ID",
+		"step3Label": "Step 3. Generate your code",
+		"step3Description": "Paste your Cookiebot Domain Group ID, and copy the code",
+		"step4Label": "Step 4. Deploy Cloduflare Workers",
+		"step4Description": "Paste the code into your Cloudflare Worker",
+		"note": {
+			"title": "Note",
+			"l1": "Remove both GTM and Cookiebot tags from your code(Cloudflare Workers insert them into your website)",
+			"l2": "Do not need to use Cookiebot CMP template tag in GTM",
+			"l3": "Configure your GTM tags with additional consent checkes.",
+			"l3Link": "Please refer to the document here."
+		}
+	}
 }
